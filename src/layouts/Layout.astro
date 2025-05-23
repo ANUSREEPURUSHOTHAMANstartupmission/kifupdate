@@ -1,0 +1,57 @@
+---
+	import '../styles/global.css'
+	import Navbar from "../components/Navbar.astro";
+
+	const { title } = Astro.props;
+
+	const description = "The Kerala Innovation Festival (KIF) is a celebration of ideas, creativity, and collaboration. It's where startups, creators, investors, policymakers, and students come together to shape the future through innovation.";
+	const url = "https://innovationfestival.in/";
+
+---        
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		<!-- Primary Meta Tags -->
+		<meta name="title" content={title} >
+		<meta name="description" content={description}>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content={url}>
+		<meta property="og:title" content={title}>
+		<meta property="og:description" content={description}>
+		<meta property="og:image" content={url + 'img/fb_image.jpg'}>
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content={url}>
+		<meta property="twitter:title" content={title}>
+		<meta property="twitter:description" content={description}>
+		<meta property="twitter:image" content={url + 'img/fb_image.jpg'}>
+
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<script defer data-domain="innovationfestival.in" src="https://analytics.huddleglobal.co.in/js/plausible.js"></script>
+
+	</head>
+	<body class="overflow-x-hidden w-screen min-w-screen">
+		<Navbar></Navbar>
+		
+		<slot />
+
+		
+		<script>
+			import '../../node_modules/aos/dist/aos.css';
+			import AOS from 'aos';
+			AOS.init();
+		</script>
+	</body>
+</html>
+
