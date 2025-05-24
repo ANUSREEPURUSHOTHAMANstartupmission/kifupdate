@@ -1,9 +1,9 @@
 <svg width="4000" height="2228" viewBox="0 0 4000 2228" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_33_2548)">
-<mask id="mask0_33_2548" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="-669" width="4000" height="3000">
+<g clip-path="url(#clip0_43_2849)">
+<mask id="mask0_43_2849" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="-669" width="4000" height="3000">
 <path d="M4000 2331H0V-669H4000V2331Z" fill="white"/>
 </mask>
-<g mask="url(#mask0_33_2548)">
+<g mask="url(#mask0_43_2849)">
 <path d="M2065.2 -0.5C2065.2 -2.7 2067 -4.5 2069.3 -4.5C2071.5 -4.5 2073.3 -2.7 2073.3 -0.5C2073.3 1.7 2071.5 3.59998 2069.3 3.59998C2067 3.59998 2065.2 1.7 2065.2 -0.5Z" fill="#A6A8AB"/>
 <path d="M2082.3 -0.5C2082.3 -2.7 2084.1 -4.5 2086.4 -4.5C2088.6 -4.5 2090.4 -2.7 2090.4 -0.5C2090.4 1.7 2088.6 3.59998 2086.4 3.59998C2084.1 3.59998 2082.3 1.7 2082.3 -0.5Z" fill="#A6A8AB"/>
 <path d="M2099.4 -0.5C2099.4 -2.7 2101.2 -4.5 2103.5 -4.5C2105.7 -4.5 2107.5 -2.7 2107.5 -0.5C2107.5 1.7 2105.7 3.59998 2103.5 3.59998C2101.2 3.59998 2099.4 1.7 2099.4 -0.5Z" fill="#A6A8AB"/>
@@ -1391,10 +1391,11 @@
 <path d="M1792 432L1472 24L1888 -140L2396 24L2316 324L1792 432Z" fill="white"/>
 <path d="M1472 24L1924 188L1888 -140M1472 24L1792 432L2316 324L2396 24L1888 -140M1472 24L1888 -140M3568 -348L3728 -372" stroke="white"/>
 <path d="M1472 24L1924 188L1888 -140M1472 24L1792 432L2316 324L2396 24L1888 -140M1472 24L1888 -140M3568 -348L3728 -372" stroke="white" stroke-opacity="0.2"/>
+<ellipse cx="2346" cy="235" rx="50" ry="39" fill="white"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_33_2548">
+<clipPath id="clip0_43_2849">
 <rect width="4000" height="2228" fill="white"/>
 </clipPath>
 </defs>
